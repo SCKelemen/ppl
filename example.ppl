@@ -9,3 +9,27 @@ def main: Program
     flowerImg: Image[Flower] = getFlowerImage()
     flowerProb: Probability[Flower] = identifyFlower(flowerImg)
     flower.flatten   
+
+
+// alter
+
+type Flower
+    = Rose
+    | Tulip
+    | Daisy
+
+
+def Flower  
+    = Rose
+    | Tulip
+    | Daisy 
+
+Flower 
+    = Rose 
+    | Tulip
+    | Daisy
+
+Flower : type 
+    = Rose 
+    | Tulip
+    | Daisy
