@@ -1,0 +1,11 @@
+import  { Probablility } from "https://github.com/SCKelemen/ppl/x/probablility.ppl"
+import { Flower, Image[Flower], getFlowerImage } from "https://github.com/SCKelemen/ppl/example/flowers.ppl"
+
+
+def identifyFlower(specimen: Image[Flower]): Probablility[Flower] 
+
+
+def main: Program
+    flowerImg: Image[Flower] = getFlowerImage()
+    flowerProb: Probability[Flower] = identifyFlower(flowerImg)
+    flower.flatten   
